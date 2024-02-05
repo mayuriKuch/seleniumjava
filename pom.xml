@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>praticeproject</groupId>
+  <artifactId>practiceproject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <dependencies>
+   <dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.14.3</version>
+    </dependency>
+
+  <dependency>
+    <groupId>com.intuit.karate</groupId>
+    <artifactId>karate-core</artifactId>
+    <version>1.4.1</version>
+  </dependency>
+   
+   <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-apache -->
+<dependency>
+    <groupId>com.intuit.karate</groupId>
+    <artifactId>karate-apache</artifactId>
+    <version>0.9.6</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-junit4 -->
+<dependency>
+    <groupId>com.intuit.karate</groupId>
+    <artifactId>karate-junit4</artifactId>
+    <version>1.3.1</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.3</version>
+</dependency>
+
+
+   </dependencies>
+  
+  
+  
+  
+  
+  
+  
+</project>
+
